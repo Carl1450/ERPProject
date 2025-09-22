@@ -1,5 +1,61 @@
+# Allowed files/folders
+!.gitignore
+!*.sln
+!*.csproj
+!*.fsproj
+!*.vbproj
+!*.md
+!appsettings*.json
+!**/*.cs
+!**/*.config
+!**/*.json
+!**/*.xml
+!**/*.sql
+!wwwroot/
+!.editorconfig
+
+# Ignore Rider & IDE files
+.idea/
+*.sln.iml
+riderModule.iml
+/.idea/
+/_ReSharper.Caches/
+resharper/
+*.DotSettings.user
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+out/
+
+# Ignore NuGet packages & settings
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.vspscc
+
+# Ignore logs and temp files
+*.log
+*.tlog
+*.tmp
+*.bak
+*.cache
+
+# User secrets (for ASP.NET)
+secrets.json
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
