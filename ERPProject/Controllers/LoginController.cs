@@ -1,6 +1,10 @@
-namespace ERPProject.Controllers;
+using Microsoft.AspNetCore.Mvc;
 
-public class LoginController
+namespace ERPProject.Controllers
 {
+    public class LoginController : Controller
+    {
     
+    }
 }
+
