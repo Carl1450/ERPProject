@@ -15,7 +15,8 @@ public class UserDb
         _configuration = configuration;
     }
     
-    private IDbConnection Connection => new NpgsqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+    private IDbConnection Connection 
+        => new NpgsqlConnection(_configuration.GetConnectionString("DefaultConnection"));
 
     public async Task<User?> GetByUsernameAsync(string username)
     {
